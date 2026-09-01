@@ -1,6 +1,4 @@
-﻿<p align="center">
-<img src="docs/images/coda-hero.png" alt="Codayak — an AI coding workbench for Windows" width="900">
-</p>
+
 
 <h1 align="center">Codayak</h1>
 
@@ -37,6 +35,12 @@ Point it at a repository, talk to it in plain language, and it reads, writes, co
 **Contents** — [What it actually does](#what-it-actually-does) · [How a request flows](#how-a-request-flows) · [Why it's different](#why-its-different) · [Getting started](#getting-started) · [Feature reference](#feature-reference) · [Safety and privacy](#safety-and-privacy) · [Licence](#licence)
 
 **Feature deep dives** — [The Trust Engine](#the-trust-engine) · [Whole-repo intelligence](#whole-repo-intelligence) · [Existing code and documents](#working-with-your-existing-code-and-documents) · [The multi-file Coordinator](#the-multi-file-coordinator) · [The research panel](#the-research-panel) · [The tool suite](#the-tool-suite) · [Diffs and rollback](#see-and-reverse-every-change) · [Learning memory](#learning-memory) · [Team Mode](#team-mode) · [Web search](#web-search) · [Image generation](#image-generation) · [Video generation and analysis](#video-generation-and-analysis) · [Speech and Conversation Mode](#speech-and-conversation-mode) · [Meeting Assistant](#meeting-assistant) · [Everything else](#everything-else)
+
+---
+
+﻿<p align="center">
+<img src="docs/images/coda-hero.png" alt="Codayak — an AI coding workbench for Windows" width="900">
+</p>
 
 ---
 
