@@ -8,16 +8,16 @@
   <img src="https://img.shields.io/badge/platform-Windows-0078d4" alt="Platform: Windows">
   <img src="https://img.shields.io/badge/.NET-8-512bd4" alt="Built on .NET 8">
   <img src="https://img.shields.io/badge/licence-free%20for%20personal%20%26%20commercial%20use-2ea44f" alt="Licence: free for personal and commercial use">
-  <img src="https://img.shields.io/badge/version-1.6-informational" alt="Version 1.6">
+<img src="https://img.shields.io/badge/version-1.6.0-informational" alt="Version 1.6.0">
 </p>
 
 <p align="center">
   <a href="https://github.com/Techniche-Labs/codayak-releases/releases/latest"><img src="https://img.shields.io/badge/⬇%20download-latest%20release-2ea44f?style=for-the-badge" alt="Download the latest release"></a>
 </p>
 
-**Codayak** — **C**ode **O**rchestration & **D**evelopment **A**ssistant: **Y**our **A**utomation **K**it — is a Windows desktop application.
+**Codayak** — **C**ode **O**rchestration & **D**evelopment **A**ssistant: **Y**our **A**utomation **K**it — is a free AI coding workbench for Windows, built for .NET and Visual Studio teams. It is a desktop application, not an editor plug-in or a cloud service.
 
-Point it at a repository, talk to it in plain language, and it reads, writes, compiles, tests and verifies your code through whichever LLM you choose, on your own API key.
+Point it at a repository, talk to it in plain language, and it reads, writes, compiles, tests and verifies your code through whichever LLM you choose — Anthropic, OpenAI, xAI, Google, MiniMax, Moonshot or Zhipu — on your own API key, with no reseller in between. It runs MSBuild and your test suite, executes real SQL against five database engines, drives a browser or a Windows desktop app to test the UI it changed, reviews pull requests on Azure DevOps and GitHub, and then verifies its own output with a build → test → security-scan → spec-check pass that reports a confidence score. Every file it changes is backed up first and shown in a side-by-side diff.
 
 <p align="center">
   <img src="docs/images/coda-devbot.png" alt="The Codayak devbot" width="180">
@@ -28,7 +28,9 @@ Point it at a repository, talk to it in plain language, and it reads, writes, co
 1. **[Download the latest release](https://github.com/Techniche-Labs/codayak-releases/releases/latest)** — grab `Codayak_Setup_x.y.z.exe` from the Assets list and run it. The installer and application are digitally signed by **TECHNICHE LABS PTY. LTD.**
 2. **Requirements** — 64-bit Windows 10 (1809) or later / Windows 11. The installer checks for the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) and the Microsoft Edge WebView2 Runtime and directs you to them if missing.
 3. **Bring your own key** — you'll need an API key for at least one supported LLM provider (Anthropic, OpenAI, xAI, Google, MiniMax, Moonshot or Zhipu).
-4. **Upgrading?** Just run the new installer over the top — settings, sessions and memories are preserved.
+4. **Run the installer as administrator** — right-click → **Run as administrator**. A non-elevated install can stop with file-access errors ([#3](https://github.com/Techniche-Labs/codayak-releases/issues/3)).
+5. **Windows SmartScreen may warn on first run.** The installer is signed by Techniche Labs; SmartScreen shows *"Windows protected your PC"* until the new certificate earns reputation. Click **More info**, confirm the publisher reads **TECHNICHE LABS PTY. LTD.**, then **Run anyway** ([#2](https://github.com/Techniche-Labs/codayak-releases/issues/2)).
+6. **Upgrading?** Just run the new installer over the top — settings, sessions and memories are preserved.
 
 ---
 
