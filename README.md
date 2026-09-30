@@ -69,6 +69,44 @@ Point it at a repository, talk to it in plain language, and it reads, writes, co
 | 🧭 **Runs a research panel** | Fans one question across up to 10 worker LLMs with different analytical framings, then hands every perspective back to be judged. |
 | 🔌 **Works with the provider you already use** | Anthropic, OpenAI, xAI, Google, MiniMax, Moonshot, Zhipu — plus any **OpenAI-compatible endpoint** (a local Ollama or LM Studio server, vLLM, or your company's gateway). Switchable from the toolbar. |
 
+### See it in action
+
+Real screenshots from Codayak 1.7.0 working on [OrchardCore](https://github.com/OrchardCMS/OrchardCore) (245 projects, 10,420 files).
+
+**From a vague ticket to acceptance criteria, grounded in the code**
+
+<p align="center">
+<img src="docs/images/ticket-to-acceptance-criteria.png" alt="Codayak turning a vague ticket into a user story with Given/When/Then acceptance criteria and open questions, grounded in the OrchardCore source" width="900">
+</p>
+
+**The blast radius of a change, before anything is touched**
+
+<p align="center">
+<img src="docs/images/blast-radius.png" alt="Codayak listing every call site and file affected by changing a method in OrchardCore, and flagging where there is no test coverage" width="900">
+</p>
+
+**The change written, built and tested**
+
+<p align="center">
+<img src="docs/images/change-and-tests.png" alt="Codayak making a guarded change and a new unit test, building the solution and running the test suite" width="900">
+</p>
+
+**Testing the UI in a real browser**
+
+<p align="center">
+<img src="docs/images/browser-ui-test.png" alt="Codayak driving a real Chrome session and reporting the page's interactive elements" width="900">
+</p>
+
+**Seven providers, or a local model**
+
+<p align="center">
+<img src="docs/images/llm-providers.png" alt="The Codayak toolbar with the provider dropdown open: Anthropic, OpenAI, xAI, Google, MiniMax, Moonshot and Zhipu" width="900">
+</p>
+
+<p align="center">
+<img src="docs/images/local-model.png" alt="Codayak running qwen3-coder:30b locally through Ollama, calling its tools and answering from the repository" width="900">
+</p>
+
 ---
 
 ## How a request flows
@@ -226,6 +264,11 @@ Cross-session learning that actually persists — on by default; the switch is *
 ### Team Mode
 
 Other Codayak instances — on this machine or across the LAN — become tools of your chat model.
+
+<p align="center">
+<img src="docs/images/team-mode.png" alt="Two Codayak windows in Team Mode: a Leader with one connected specialist above, and the Specialist connected to the Leader below" width="900">
+</p>
+
 
 - **Every joiner is a callable tool.** Share an invite code; each peer announces its provider, model, context window, enabled tools, repo and specialty. The toolbar names the port (**👥 2 peers (Port: 41833)** / **Team → :41833**) so several leader–specialist pairs on one machine stay distinguishable.
 - **Delegated edits land in your panel.** Files a peer changed appear in the leader's **Files Changed** panel with a diff, and the Trust Engine verifies them as part of the change.
