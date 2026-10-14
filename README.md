@@ -71,7 +71,14 @@ Point it at a repository, talk to it in plain language, and it reads, writes, co
 
 ### See it in action
 
+**Watch the 2½-minute demo** — a vague ticket becomes acceptance criteria, the blast radius is mapped, the change is built and run through 3,197 tests, the Trust Engine proves it, then browser testing, real SQL and a GitHub pull-request review:
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=ZEAuq8zXmyA"><img src="https://img.youtube.com/vi/ZEAuq8zXmyA/maxresdefault.jpg" alt="Watch the Codayak demo on YouTube" width="900"></a>
+</p>
+
 Real screenshots from Codayak 1.7.0 working on [OrchardCore](https://github.com/OrchardCMS/OrchardCore) (245 projects, 10,420 files).
+
 
 **From a vague ticket to acceptance criteria, grounded in the code**
 
