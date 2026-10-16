@@ -136,6 +136,22 @@ Your message goes to the model you chose; the model calls tools that run **on yo
 
 **Nothing changes without a trail.** Auto-backup before every write, a side-by-side diff, and one-command rollback. The **Write to Repo** switch is off until you turn it on.
 
+### How it compares
+
+| Capability | **Codayak** | Cursor | GitHub Copilot | Claude Code | Cline | Windsurf |
+|---|---|---|---|---|---|---|
+| Verifies its own output (build, tests, security, standards, spec; scored report with evidence) | **Yes** | No ¹ | No | No | No | No ¹ |
+| Builds with MSBuild and runs your test suite itself | **Yes** | Yes | Yes | Yes | Yes | Yes |
+| Executes SQL against SQL Server, PostgreSQL, MySQL, SQLite, Oracle | **Yes** | No * | No * | No * | No * | No * |
+| Drives a real Chrome session to test web UI | **Yes** | No * | No * | No * | Yes | No * |
+| Tests a Windows desktop app through UI Automation | **Yes** | No | No | No | No | No |
+| Posts line-level pull-request review comments | **Yes** — Azure DevOps and GitHub | Yes (paid) | Yes | Yes | No | Yes |
+| Azure DevOps work items and wikis | **Yes** | No | Partial | No * | No * | No |
+| Local models (OpenAI-compatible endpoint) | **Yes** | No | No | No | Yes | No |
+| Price | **Free** | Paid | Paid | Paid | Free (your key) | Paid |
+
+\* Requires a third-party Model Context Protocol server. ¹ Review tools that find bugs in a diff; they do not build, test or spec-check the output. Checked 15 October 2026 — full table with notes and sources on the **[comparison page](https://www.technichelabs.com.au/codayak-compare.aspx)**.
+
 ---
 
 
